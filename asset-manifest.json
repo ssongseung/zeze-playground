@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ssongseung/zeze-playground/static/css/main.5759cb20.css",
-    "main.js": "/ssongseung/zeze-playground/static/js/main.27783a96.js",
+    "main.css": "/ssongseung/zeze-playground/static/css/main.daecaa50.css",
+    "main.js": "/ssongseung/zeze-playground/static/js/main.637d71db.js",
     "index.html": "/ssongseung/zeze-playground/index.html",
-    "main.5759cb20.css.map": "/ssongseung/zeze-playground/static/css/main.5759cb20.css.map",
-    "main.27783a96.js.map": "/ssongseung/zeze-playground/static/js/main.27783a96.js.map"
+    "main.daecaa50.css.map": "/ssongseung/zeze-playground/static/css/main.daecaa50.css.map",
+    "main.637d71db.js.map": "/ssongseung/zeze-playground/static/js/main.637d71db.js.map"
   },
   "entrypoints": [
-    "static/css/main.5759cb20.css",
-    "static/js/main.27783a96.js"
+    "static/css/main.daecaa50.css",
+    "static/js/main.637d71db.js"
   ]
 }
