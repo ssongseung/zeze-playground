@@ -1,0 +1,59 @@
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
+/* Button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  padding: 0 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid;
+  border-radius: 15px;
+  &-round {
+    border-radius: 100px;
+  }
+  &-primary {
+    color: #fff;
+    background-color: #5240f5;
+    border-color: #5240f5;
+    &:hover {
+      background-color: #7566ff;
+      border-color: #7566ff;
+    }
+    &:disabled {
+      color: #f5f6fa;
+      background-color: #e4e5eb;
+      border-color: #e4e5eb;
+    }
+    &-active {
+      background-color: #4331e0;
+      border-color: #4331e0;
+    }
+    &-hover {
+      background-color: #7566ff;
+      border-color: #7566ff;
+    }
+  }
+  &-secondary {
+    color: #121314;
+    border-color: #5240f5;
+    &:hover {
+      border-color: #7566ff;
+    }
+    &:disabled {
+      color: #bdc0c7;
+      background-color: #f5f6fa;
+      border-color: #e4e5eb;
+    }
+    &-active {
+      border-color: #4331e0;
+    }
+    &-hover {
+      border-color: #7566ff;
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "colorName": "colorBasic"
+    },
+    {
+      "id": 2,
+      "colorName": "colorGray"
+    },
+    {
+      "id": 3,
+      "colorName": "colorAccents"
+    },
+    {
+      "id": 4,
+      "colorName": "colorDestructive"
+    }
+  ],
+  "color": [
+    {
+      "id": 1,
+      "colorName": "colorBasic",
+      "color": "white",
+      "name": "White",
+      "code": "FFF"
+    },
+    {
+      "id": 2,
+      "colorName": "colorBasic",
+      "color": "black",
+      "name": "Black",
+      "code": "121314"
+    },
+    {
+      "id": 3,
+      "colorName": "colorGray",
+      "color": "gray01",
+      "name": "Gray 1",
+      "code": "858994"
+    },
+    {
+      "id": 4,
+      "colorName": "colorGray",
+      "color": "gray02",
+      "name": "Gray 2",
+      "code": "BDC0C7"
+    },
+    {
+      "id": 5,
+      "colorName": "colorGray",
+      "color": "gray03",
+      "name": "Gray 3",
+      "code": "E4E5EB"
+    },
+    {
+      "id": 6,
+      "colorName": "colorGray",
+      "color": "gray04",
+      "name": "Gray 4",
+      "code": "F5F6FA"
+    },
+    {
+      "id": 7,
+      "colorName": "colorAccents",
+      "color": "purple",
+      "name": "Purple",
+      "code": "5240F5"
+    },
+    {
+      "id": 8,
+      "colorName": "colorAccents",
+      "color": "purple-hover",
+      "name": "Purple Hover",
+      "code": "7566FF"
+    },
+    {
+      "id": 9,
+      "colorName": "colorAccents",
+      "color": "purple-active",
+      "name": "Purple Pressed",
+      "code": "4331E0"
+    },
+    {
+      "id": 10,
+      "colorName": "colorAccents",
+      "color": "yellow",
+      "name": "Yellow",
+      "code": "FFC400"
+    },
+    {
+      "id": 11,
+      "colorName": "colorAccents",
+      "color": "dark-yellow",
+      "name": "Dark Yellow",
+      "code": "FF941A"
+    },
+    {
+      "id": 12,
+      "colorName": "colorAccents",
+      "color": "orange",
+      "name": "Orange",
+      "code": "FF5429"
+    },
+    {
+      "id": 13,
+      "colorName": "colorAccents",
+      "color": "pink",
+      "name": "Pink",
+      "code": "FF3399"
+    },
+    {
+      "id": 14,
+      "colorName": "colorAccents",
+      "color": "green",
+      "name": "Green",
+      "code": "0EB25B"
+    },
+    {
+      "id": 15,
+      "colorName": "colorAccents",
+      "color": "green-hover",
+      "name": "Green Hover",
+      "code": "1DCC6E"
+    },
+    {
+      "id": 16,
+      "colorName": "colorAccents",
+      "color": "green-active",
+      "name": "Green Pressed",
+      "code": "03A850"
+    },
+    {
+      "id": 17,
+      "colorName": "colorDestructive",
+      "color": "red",
+      "name": "Red",
+      "code": "FF2E51"
+    },
+    {
+      "id": 18,
+      "colorName": "colorDestructive",
+      "color": "red-hover",
+      "name": "Red Hover",
+      "code": "FF4767"
+    },
+    {
+      "id": 19,
+      "colorName": "colorDestructive",
+      "color": "red-active",
+      "name": "Red Pressed",
+      "code": "F01452"
+    }
+  ]
+}

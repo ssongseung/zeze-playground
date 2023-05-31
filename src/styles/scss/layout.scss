@@ -1,13 +1,9 @@
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
+// header
 .header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0;
   border-bottom: 1px solid #eee;
   &__nav {
     .navbar-nav {
@@ -15,10 +11,47 @@
       width: 100%;
     }
     .nav-item {
-      margin-right: 2rem;  
+      margin-right: 2rem;
     }
     .nav-link {
       display: inline-block;
     }
   }
+  &__subnav {
+    .navbar-subnav {
+      display: flex;
+      width: 100%;
+    }
+    .subnav-item {
+      margin-right: 2rem;
+    }
+  }
 }
+// main
+.main {
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  &__menu {
+    width: 12%;
+  }
+  &__content {
+    width: 88%;
+    padding: 35px 85px;
+    background-color: #f5f6fa;
+  }
+  &__tab {
+    padding: 16px 0;
+    text-align: center;
+  }
+}
+// footer
+.footer {
+  height: 500px;
+}
+// .container {
+//   max-width: 1280px;
+//   margin: 0 auto;
+//   background: #f5f6fa;
+// }

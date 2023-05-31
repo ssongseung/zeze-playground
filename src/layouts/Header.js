@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 
 function Header() {
+  const menuItems = [
+    { to: "/guide", name: "Guide" },
+    { to: "/chatgpt", name: "ChatGPT" },
+    { to: "/shop", name: "SHOP" },
+  ];
+
   return (
     <>
       <header className="header">
@@ -9,18 +15,28 @@ function Header() {
         </h1>
         <nav className="header__nav">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/blog" target="_self"><span>Blog</span></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/chatgpt" target="_self"><span>ChatGPT</span></Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/shop" target="_self"><span>SHOP</span></Link>
-              <p></p>
-            </li>
+            {menuItems.map((item, index) => (
+              <li className="nav-item" key={index}>
+                <Link className="nav-link" to={item.to} target="_self">
+                  <span>{item.name}</span>
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
+        <div className="header__subnav">
+          <ul className="navbar-subnav">
+            <li className="subnav-item">
+              <p>1</p>
+            </li>
+            <li className="subnav-item">
+              <p>2</p>
+            </li>
+            <li className="subnav-item">
+              <p>3</p>
+            </li>
+          </ul>
+        </div>
       </header>
     </>
   );

@@ -1,0 +1,120 @@
+.guide__section {
+  margin-bottom: 2rem;
+  h2 {
+    padding: 2rem 8rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5240F5;
+    text-transform: capitalize;
+  }
+  h3 {
+    padding: 5rem 0 2rem;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+  }
+}
+
+/* color 영역 */
+.section__color {
+  margin-bottom: 0;
+}
+.color-guide {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex-shrink: 0;
+    width: 12.6rem;
+    margin: 0 2.5rem 2.5rem 0;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    .color {
+      height: 10.6rem;
+      border-bottom: 1px solid #e8e8e8;
+      &.white {
+        background-color: #fff;
+      }
+      &.black {
+        background-color: #000;
+      }
+      &.gray01 {
+        background-color: #858994;
+      }
+      &.gray02 {
+        background-color: #BDC0C7;
+      }
+      &.gray03 {
+        background-color: #E4E5EB;
+      }
+      &.gray04 {
+        background-color: #F5F6FA;
+      }
+      &.purple {
+        background-color: #5240F5;
+      }
+      &.purple-hover {
+        background-color: #7566FF;
+      }
+      &.purple-active {
+        background-color: #4331E0;
+      }
+      &.yellow {
+        background-color: #FFC400;
+      }
+      &.dark-yellow {
+        background-color: #FF941A;
+      }
+      &.orange {
+        background-color: #FF5429;
+      }
+      &.pink {
+        background-color: #FF3399;
+      }
+      &.green {
+        background-color: #0EB25B;
+      }
+      &.green-hover {
+        background-color: #1DCC6E;
+      }
+      &.green-active {
+        background-color: #03A850;
+      }
+      &.red {
+        background-color: #FF2E51;
+      }
+      &.red-hover {
+        background-color: #FF4767;
+      }
+      &.red-active {
+        background-color: #F01452;
+      }
+    }
+    .desc {
+      padding: 1.6rem 2.4rem;
+      font-size: 1.6rem;
+      color: #000;
+    }
+  }
+}
+
+/* button 영역 */
+.button-guide {
+  li {
+    display: flex;
+    align-items: center;
+    & + li {
+      margin-top: 2.5rem;
+    }
+    p {
+      width: 14rem;
+      font-size: 2rem;
+    }
+  }
+  button {
+    width: 12.6rem;
+    & + button {
+      margin-left: 6rem;
+    }
+  }
+}
